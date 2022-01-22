@@ -1,0 +1,11 @@
+pandas
+monthdelta
+gspread
+oauth2client
+gspread_dataframe
+python-dotenv
+aws_cdk.core
+aws_cdk.aws-iam
+aws_cdk.aws-ecr
+aws_cdk.aws-lambda
+aws_cdk.aws-events-targets

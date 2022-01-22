@@ -1,0 +1,9 @@
+.venv
+cdk.out
+app/__pycache__
+stacks/__pycache__
+app/credentials.json.example
+.env
+.env.example
+.gitignore
+README.md
