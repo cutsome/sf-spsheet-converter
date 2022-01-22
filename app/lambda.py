@@ -122,12 +122,12 @@ def handler(event=None, context=None) -> None:
 
     """データ整形"""
     id2name = {
-        '0055h000000rnPvAAI': '有本 昇平',
-        '0055h000000rnQ5AAI': '濵野 裕希',
-        '0055h000000rnQ6AAI': '岩﨑 政人',
-        '0055h000000rnQ8AAI': '岡村 友恵',
-        '0055h000000rnQ9AAI': '鴻池 広志',
-        '0055h000000rEZxAAM': '土井 一通',
+        'AAAA': 'aaaa',
+        'BBBB': 'bbbb',
+        'CCCC': 'cccc',
+        'DDDD': 'dddd',
+        'EEEE': 'eeee',
+        'FFFF': 'ffff',
     }
     df['MRR'] = (df['導入生徒数'] * df['単価']).astype('int')
     df['所有者'] = df['所有者'].map(lambda x: id2name[x])
@@ -277,12 +277,12 @@ def handler(event=None, context=None) -> None:
 
     """データ整形"""
     id2name = {
-        '0055h000000rnPvAAI': '有本 昇平',
-        '0055h000000rnQ5AAI': '濵野 裕希',
-        '0055h000000rnQ6AAI': '岩﨑 政人',
-        '0055h000000rnQ8AAI': '岡村 友恵',
-        '0055h000000rnQ9AAI': '鴻池 広志',
-        '0055h000000rEZxAAM': '土井 一通',
+        'AAAA': 'aaaa',
+        'BBBB': 'bbbb',
+        'CCCC': 'cccc',
+        'DDDD': 'dddd',
+        'EEEE': 'eeee',
+        'FFFF': 'ffff',
     }
     id2status = {
         '0125h000000Z9LBAA0': '一部有料導入',
