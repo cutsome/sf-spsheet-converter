@@ -119,8 +119,8 @@ class LambdaStack(core.Stack):
             rule_name=f"{props.service_name}-{props.function_name}-rule",
             # UTC
             schedule=events.Schedule.cron(
-                minute="*",
-                hour="*/6",
+                minute="0",
+                hour="0/6",
                 day="*",
                 month="*",
                 year="*",
